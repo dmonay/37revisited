@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset */
+
+
+html {min-width:530px;}
+
+/* header */
+#header{
+    width:95%;
+    
+    height:30px;
+    margin:20px;
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size:12px;
+    color:#1352b7;
+}
+
+.left {
+    float:left;
+    color:gray;
+}
+
+ ul {text-align:right;}
+
+li {
+    display:inline;
+    padding:10px;
+}
+
+#special {
+    color:#7294f0;
+    padding:7px;
+}
+
+#special :hover {
+    color:#1352b7;
+}
+
+a { text-decoration:none;
+    color:inherit;
+}
+
+a:hover {color:#7294f0;}
+
+/* center */
+
+.content {
+    position:relative;
+    width:800px;
+    font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+
+#logo {
+    position:relative;
+    top:-20px;
+}
+
+ 
+
+#boxes {
+    height:230px;
+    width:170px;
+    background: -webkit-linear-gradient(#fff, #efefef);
+    background:    -moz-linear-gradient(#fff, #efefef);
+    background:     -ms-linear-gradient(#fff, #efefef);
+    background:      -o-linear-gradient(#fff, #efefef);
+    background:         linear-gradient(#fff, #efefef);
+    display:inline-block;
+    margin:20px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    border:1px solid #e6e4e4;
+    border-radius:4px;
+    box-shadow:0 0 3px #beb9b9;
+}
+
+#default  h1{
+    font-size:58px;
+    font-weight:500;
+    letter-spacing: -2px;
+    color: #232323;
+    padding-bottom:20px;
+}
+#one  h1{
+    font-size:49px;
+    font-weight:500;
+    letter-spacing: -2px;
+    color: #232323;
+    padding-bottom:20px;
+}
+#two  h1{
+    font-size:49px;
+    font-weight:500;
+    letter-spacing: -2px;
+    color: #232323;
+    padding-bottom:20px;
+}
+#three  h1{
+    font-size:49px;
+    font-weight:500;
+    letter-spacing: -2px;
+    color: #232323;
+    padding-bottom:20px;
+}
+
+
+
+
+#default h3 {
+        font-size:19px;
+   
+}
+ #one h3{
+    font-size:16px;
+    line-height:22px;
+    color: #232323;
+}
+ #two h3{
+    font-size:16px;
+    line-height:22px;
+    color: #232323;
+}
+ #three h3{
+    font-size:16px;
+    line-height:22px;
+    color: #232323;
+}
+
+
+
+.content img {margin-top: 20px;}
+
+.product-name {
+    text-decoration:underline;
+    color:#0b119d;
+    padding-bottom:10px;
+}
+
+p {
+    font-size:14px;
+    padding:5px;
+}
+
+h4{
+    color:red;
+    padding-bottom:15px;
+}
+
+.content a:hover {color:inherit;}
+
+#default, #one, #two, #three {
+    width:780px;
+    height:180px;
+    margin:0 auto;    
+}
+
+.marketing span{
+    color:#2460e6;
+    text-decoration:underline;
+}
+
+/* jQuery voodoo */
+
+
+.hidden {
+    display:none;
+}
+
+.visible {
+    display:block;   
+}
+
+#arrow_left {
+    position:absolute;
+    top:200px;
+    left:240px;
+}
+
+#arrow_left_again {
+    position:absolute;
+    top:200px;
+    left:450px;
+}
+
+#arrow_right {
+    position:absolute;
+    top:210px;
+    left:620px;
+}
+
+/*  footer */
+#footer{
+    width:100%;
+    height:20px;
+    position:relative;
+    bottom:0px;
+}
